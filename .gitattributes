@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+AssitenteIAemJava/src/main/resources/model/ggml-base.bin filter=lfs diff=lfs merge=lfs -text
+AssitenteIAemJAva/src/main/resources/model/*.bin filter=lfs diff=lfs merge=lfs -text
+AssitenteIAemJAva/src/main/resources/model/*.onnx filter=lfs diff=lfs merge=lfs -text
